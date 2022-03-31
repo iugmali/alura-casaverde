@@ -1,0 +1,33 @@
+@import "styles/variables";
+
+.footer {
+  padding-top: 1.875rem;
+  padding-bottom: 2.5rem;
+  background-color: $branco;
+  background-image: var(--splash);
+  background-position: top -11rem right;
+  background-repeat: no-repeat;
+  &__logo {
+    max-width: 11.063rem;
+    margin-bottom: 1.25rem;
+  }
+  &__social {
+    display: flex;
+    margin-bottom: 2rem;
+    &--midia {
+      display: inline-block;
+      width: 1.625rem;
+      height: 1.625rem;
+      margin-right: 1.625rem;
+    }
+  }
+  &__unidade {
+    margin-bottom: 2rem;
+    &__titulo {
+      color: $preto;
+      font-size: $tamanho_destaque;
+      font-weight: $peso_destaque;
+      margin-bottom: .5rem;
+    }
+  }
+}

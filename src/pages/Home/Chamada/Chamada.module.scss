@@ -1,0 +1,21 @@
+.chamada {
+  padding-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  background-image: var(--splash-chamada);
+  background-position: top -4rem right;
+  background-repeat: no-repeat;
+  position: relative;
+  &__texto {
+    width: 12.5rem;
+    margin-bottom: 1.55rem;
+  }
+  &__imagem {
+    position: absolute;
+    top: 3.25rem;
+    right: 0;
+  }
+  &__form {
+    position: relative;
+    z-index: 2;
+  }
+}

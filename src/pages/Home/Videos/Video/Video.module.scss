@@ -1,0 +1,33 @@
+@import "styles/variables";
+
+.video__card {
+  margin-bottom: 2rem;
+  &__video {
+    position: relative;
+    width: 100%;
+    max-height: 17.375rem;
+    overflow: hidden;
+    margin-bottom: .563rem;
+    &::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      width: 4.875rem;
+      height: 4.875rem;
+      border-radius: 50%;
+      background-color: $branco;
+      background-image: var(--play);
+      background-repeat: no-repeat;
+      background-position: center left 55%;
+    }
+  }
+  &__titulo {
+    color: $preto;
+    font-size: $tamanho_destaque;
+    font-weight: $peso_destaque;
+    margin-bottom: .25rem;
+  }
+}

@@ -1,0 +1,18 @@
+@import "styles/variables";
+
+.card {
+  box-sizing: border-box;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: $branco;
+  box-shadow: 10px 10px 30px $preto_transparente;
+  &__produto {
+    padding-top: 1.688rem;
+    padding-bottom: 1.688rem;
+    padding-left: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 12.5rem;
+    margin-bottom: 0.75rem;
+  }
+}

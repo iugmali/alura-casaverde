@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Ajuga reptans",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/ajuga-reptans.png"
+  },
+  {
+    "name": "Cordyline fruticosa",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/cordyline-fruticosa.png"
+  },
+  {
+    "name": "Crassula ovata",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/crassula-ovata.png"
+  },
+  {
+    "name": "Cyperus rotundus",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/cyperus-rotundus.png"
+  },
+  {
+    "name": "Delairea odorata",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/delairea-odorata.png"
+  },
+  {
+    "name": "Datura metel",
+    "price": "R$ 20,00",
+    "img": "/assets/produtos/datura-metel.png"
+  }
+]

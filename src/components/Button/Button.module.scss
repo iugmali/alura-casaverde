@@ -1,0 +1,20 @@
+@import "styles/variables";
+
+.button {
+  background-color: $amarelo;
+  color: $branco;
+  text-align: center;
+  font-family: inherit;
+  font-weight: $peso_botao;
+  width: 100%;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  box-shadow: 10px 10px 30px $amarelo_30;
+  border: none;
+  &--alternate {
+    border: 1px solid $amarelo;
+    background-color: unset;
+    color: $amarelo;
+    box-shadow: none;
+  }
+}

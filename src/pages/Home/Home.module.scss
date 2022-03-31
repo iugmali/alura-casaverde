@@ -1,0 +1,29 @@
+@import "styles/variables";
+
+.container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  .titulo {
+    font-size: $tamanho_titulo;
+    &--destaque {
+      font-family: $familia_titulo_destaque;
+      color: $preto;
+      font-size: $tamanho_titulo_destaque;
+      font-weight: $peso_titulo_destaque;
+      display: block;
+      margin-top: .75rem;
+      margin-bottom: .75rem;
+    }
+  }
+  .align {
+    &--esquerda {
+      text-align: left;
+    }
+    &--center {
+      text-align: center;
+    }
+  }
+  .texto {
+    line-height: 1.625rem;
+  }
+}

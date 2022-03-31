@@ -1,0 +1,36 @@
+@import "styles/variables";
+
+.produto {
+  &__imagem {
+    position: absolute;
+    top: 50%;
+    left: -8rem;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 18.75rem;
+  }
+  &__conteudo {
+    position: relative;
+    z-index: 2;
+  }
+  &__titulo {
+    margin-top: 0;
+    margin-bottom: .5rem;
+  }
+  &__preco {
+    margin-bottom: 1.5rem;
+  }
+  &__comprar {
+    color: $amarelo;
+    display: flex;
+    align-items: center;
+    &--icone {
+      display: inline-block;
+      width: 0.875rem;
+      height: 0.875rem;
+      margin-left: 1.625rem;
+      background-size: contain;
+      background-image: var(--seta);
+    }
+  }
+}
